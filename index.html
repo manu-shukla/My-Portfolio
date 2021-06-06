@@ -22,7 +22,7 @@
   </head>
   <body class="d-flex h-100 text-center bg-dark text-white">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="mb-auto">
+      <header class="mb-auto" id="nav">
         <div>
           <h3 class="float-md-start mb-0">Manu Shukla</h3>
           <nav class="nav nav-masthead justify-content-center float-md-end">
@@ -32,28 +32,77 @@
               href="#home"
               >Home</a
             >
-            <a class="nav-link fs-4 text-white" href="#about">About Me</a>
+            <a class="nav-link fs-4 text-white" href="#prof">Profile</a>
+            <a class="nav-link fs-4 text-white" href="#about">My Skills</a>
             <a class="nav-link fs-4 text-white" href="#contact">Contact Me</a>
           </nav>
         </div>
       </header>
 
       <main class="px-3 py-5" id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p class="lead">
-          I am a Web Development enthusiast as well as a Competitive Programmer.
-        </p>
-        <p class="lead">
-          <a
-            href="#about"
-            class="btn btn-lg btn-secondary fw-bold border-white bg-dark"
-            >Know More</a
-          >
-        </p>
+        <div class="container" id="maintext">
+          <video
+            playsinline
+            autoplay
+            muted
+            loop
+            id="back"
+            src="images/bgmain.mp4"
+            type="video/mp4"
+          ></video>
+          <h1>Welcome to My Portfolio</h1>
+          <p class="lead">
+            I am a Web Development enthusiast as well as a Competitive
+            Programmer.
+          </p>
+          <p class="lead">
+            <a
+              href="#about"
+              class="btn btn-lg btn-secondary fw-bold border-white bg-dark"
+              >Know More</a
+            >
+          </p>
+        </div>
       </main>
-
+      <div class="container-fluid" id="prof">
+        <h1>My Profile</h1>
+        <div class="row py-2">
+          <div class="col-5">
+            <h2>Education</h2>
+            <div class="card bg-success m-auto my-3" style="width: 18rem">
+              <img src="./images/bhu.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  A First Year Student At IIT (BHU), Varanasi pursuing B.Tech
+                </p>
+              </div>
+            </div>
+            <div class="card bg-primary m-auto my-3" style="width: 18rem">
+              <img src="./images/mva.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Completed my higher Secondary from Macro Vision Academy,
+                  Burhanpur
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <img src="/images/pic.png" class="w-100" alt="" />
+          </div>
+          <div class="col-5">
+            <h2>Experience</h2>
+            <div class="card bg-primary m-auto my-3" style="width: 18rem">
+              <img src="./images/exp.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Doing my best to gain more Experience!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="container-fluid" id="about">
-        <h1>About Me</h1>
+        <h1>My Skills</h1>
         <div class="m-5 row row-cols-1 row-cols-md-2 g-4">
           <div class="col">
             <div class="card bg-primary">

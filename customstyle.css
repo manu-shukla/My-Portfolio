@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 .icons a:visited {
   text-decoration: none;
   color: inherit;
@@ -6,14 +14,37 @@
   transition: 0.5s ease-in-out;
   padding: 0 12px;
 }
+.icons i:visited {
+  text-decoration: none;
+  color: inherit;
+}
 .icons i:hover {
   transform: scale(1.8);
 }
 #about {
-  
-  margin-top: 25%;
+  margin-top: 15%;
   margin-bottom: 10%;
 }
-#home{
-margin-top: 15%;
+#home {
+  margin-top: 15%;
+}
+#prof {
+  margin-top: 10%;
+}
+#nav {
+  position: sticky;
+  top: 5px;
+  z-index: 2;
+
+  width: 100%;
+}
+#back {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+
+  z-index: -1;
 }
