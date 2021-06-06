@@ -48,3 +48,6 @@ html {
 
   z-index: -1;
 }
+#mypic {
+  z-index: 5;
+}
