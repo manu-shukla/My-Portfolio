@@ -35,17 +35,14 @@ html {
   position: sticky;
   top: 5px;
   z-index: 2;
-
+  background-color: black;
   width: 100%;
 }
-#back {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-
-  z-index: -1;
+#back:empty {
+  display: none;
 }
-
+#mypic {
+  max-width: 50vw;
+  max-height: 75vh;
+  justify-content: center;
+}
