@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Baloo Bhai 2", cursive;
 }
 html {
   scroll-behavior: smooth;
@@ -33,10 +34,11 @@ html {
 }
 #nav {
   position: sticky;
-  top: 5px;
+  top: 0;
   z-index: 2;
 
   width: 100%;
+  left: 0;
 }
 #back {
   position: fixed;
@@ -48,4 +50,10 @@ html {
 
   z-index: -1;
 }
-
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+}
